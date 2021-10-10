@@ -1,0 +1,204 @@
+/* css reset */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Baloo Bhai', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    height: 45px;
+    margin: -2px -17px;
+    filter: invert(100%);
+}
+/* navigation */
+
+
+#navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul{
+    display: flex;
+    margin: 20px 66px;
+    
+}
+#navbar ul li{
+  list-style: none;
+font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+   display: block;
+   padding: 3px 22px;
+   text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+ 
+}
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url("https://nwscdn.com/media/catalog/product/cache/all/thumbnail/800x/9df78eab33525d08d6e5fb8d27136e95/h/i/high-visibility-football-mannequins_3.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 72%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+#home h1{
+    color:#219988;
+    /* border: 4px solid#16a4a4; */
+    /* background-color: #060315; */
+text-align: center;
+}
+#home p{
+    color: #070606;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* services*/
+#services{
+    margin: 17px;
+   display: flex;
+    
+}
+
+
+#services .box{
+    border: 3px solid brown;
+    border-radius: 30px;
+    background-color: #c1c1c1;
+    margin: 2px 7px;
+    padding: 34px;
+    
+    
+}
+#services .box img{
+    margin: auto;
+    height: 175px;
+    display: block;
+    padding: 20px;
+}
+
+.h-primary{
+    font-size: 2.8rem;
+  padding: 12px;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn{
+    padding: 0px 10px;
+    border: 2px solid white;
+    background-color: #17ab96;
+    font-family: 'Baloo Bhai', cursive;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+/* services section */
+.center{
+    text-align: center;
+}
+/* clients sectyion */
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients-section{
+    height: 344px;
+
+}
+.clients img{
+    height: 100px;
+    margin: 30px;
+}
+#clients::before{
+    content: "";
+    position: absolute;
+    background: url("https://i.ytimg.com/vi/XulIW9eeFx4/maxresdefault.jpg");
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+/* contact section */
+#contact{
+   position: relative; 
+}
+#contact::before{
+content: "";
+position: absolute;
+background: url("https://wallpapercave.com/wp/wp6944123.jpg");
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: 0.7;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
+/* contact */
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding-bottom: 34px;
+}
+.form-group input {
+    /* border: 2px solid black; */
+    font-size: 10px;
+    display: block;
+    border-radius: 4px;
+    font-family: 'Baloo Bhai', cursive;
+    padding: 1px;
+    text-align: center;
+}
+.btno {
+    border-radius: 6px;
+    border: 3px solid white;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+}
+
